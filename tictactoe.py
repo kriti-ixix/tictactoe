@@ -113,7 +113,7 @@ def restartGame():
             theBoard[values] = ' '
         clear_screen()
         print("\nRestarting the game:\n")
-        playGame()
+        main()
     else:
         print("Thank you for playing!")
 
